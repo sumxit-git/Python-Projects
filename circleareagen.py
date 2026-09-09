@@ -1,3 +1,4 @@
+import math
 r = float(input("Enter Radius: "))
-ar = 3.14*r*r
+ar = math.pi*r*r
 print("\nArea of circle=", ar)
